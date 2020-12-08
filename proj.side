@@ -1,0 +1,197 @@
+{
+  "id": "124d82a7-847f-49de-a8bd-7552461a3333",
+  "version": "2.0",
+  "name": "proj",
+  "url": "https://www.foxtrot.com.ua",
+  "tests": [{
+    "id": "91f3ff87-adeb-46ea-87b9-10eaba07e1db",
+    "name": "search",
+    "commands": [{
+      "id": "33e4a8ea-5d08-41aa-81f6-e0f913e21ad9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f925fca5-ed84-4991-af1c-10761f27bff3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "973x1039",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27ecf719-ad4f-4a90-9b28-c2664bd0cc64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "522c1106-fdc0-4301-af71-3557c476b67e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97719f1e-7109-45a9-b95e-1af419429bcd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "iphone"
+    }, {
+      "id": "a866b83d-f9ab-4202-9735-83b01df318ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "0a9a0c17-a781-4d8e-91cb-93b971c068b6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "ded03d1c-0b80-49e8-9830-f659f8d73a5f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7e05cb84-99a8-4d80-b5ac-595580ad6dd9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,199)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b46a91f-e5a3-4293-bf4c-c8b9040386b1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Смартфон APPLE iPhone 11 64GB Black (MWLT2RM/A)",
+      "targets": [
+        ["linkText=Смартфон APPLE iPhone 11 64GB Black (MWLT2RM/A)", "linkText"],
+        ["css=.desc-loaded .card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Смартфон APPLE iPhone 11 64GB Black (MWLT2RM/A)')]", "xpath:link"],
+        ["xpath=//div[@id='listing-page-container']/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/shop/mobilnye_telefony_apple_iphone-11-64gb-black.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфон APPLE iPhone 11 64GB Black (MWLT2RM/A)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28b17cb-834b-4fa6-a3f6-1a6a4f74cec4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Смартфон APPLE iPhone 12 64GB Black (MGJ53FS/A)",
+      "targets": [
+        ["linkText=Смартфон APPLE iPhone 12 64GB Black (MGJ53FS/A)", "linkText"],
+        ["css=.desc-loading .card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Смартфон APPLE iPhone 12 64GB Black (MGJ53FS/A)')]", "xpath:link"],
+        ["xpath=//div[@id='listing-page-container']/div/div/div[2]/div[2]/div[2]/div[2]/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/shop/mobilnye_telefony_apple_iphone-12-64gb-black.html')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[2]/div[2]/div[2]/div[2]/div[3]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфон APPLE iPhone 12 64GB Black (MGJ53FS/A)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1feb4577-7c77-496a-8ed4-222b4e4e7c6c",
+    "name": "cart",
+    "commands": [{
+      "id": "98ef2b03-3897-4a25-ac60-d961cbdc8587",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "318c4e29-39b4-4d03-9e0d-58c5f754dd92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "973x1039",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31676622-8c74-4d9f-bc66-e3b30bac1715",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .card__buttons-row > .button",
+      "targets": [
+        ["css=.card:nth-child(1) .card__buttons-row > .button", "css:finder"],
+        ["xpath=//main[@id='main-page']/div[3]/div/div[2]/div/div/div[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84740767-d903-4a75-9a6f-cd66f9e762c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-basket__icon",
+      "targets": [
+        ["css=.header-basket__icon", "css:finder"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[4]/div[4]/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e4bff3-d7d7-4869-9cc4-c8ce9a636fd7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.header-tooltip__cards-item__title",
+      "targets": [
+        ["css=.header-tooltip__cards-item__title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбук LENOVO IdeaPad S145-15IKB Black (81VD00E9RA)')])[3]", "xpath:link"],
+        ["xpath=//div[@id='cartTooltip']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/shop/noutbuki_lenovo_s145-15ikb-81vd00e9ra.html')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "197087a8-a490-4599-aa83-75f953457cd4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.foxtrot.com.ua/"],
+  "plugins": []
+}
